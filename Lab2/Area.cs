@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Laboratorio_II_Programación_III
+namespace Lab2
 {
     public class Area
     {
-        public string Nombre { get; set; }
+        public string Name { get; set; }
 
-        public Area(string nombre)
+        public Area(string name)
         {
-            Nombre = nombre;
+            Name = name;
         }
     }
 }
