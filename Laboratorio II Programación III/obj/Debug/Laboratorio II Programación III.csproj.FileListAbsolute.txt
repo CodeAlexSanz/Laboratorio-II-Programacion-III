@@ -1,0 +1,8 @@
+C:\Users\alexs\Desktop\Laboratorio II Programación III\Laboratorio II Programación III\bin\Debug\Laboratorio II Programación III.exe.config
+C:\Users\alexs\Desktop\Laboratorio II Programación III\Laboratorio II Programación III\bin\Debug\Laboratorio II Programación III.exe
+C:\Users\alexs\Desktop\Laboratorio II Programación III\Laboratorio II Programación III\bin\Debug\Laboratorio II Programación III.pdb
+C:\Users\alexs\Desktop\Laboratorio II Programación III\Laboratorio II Programación III\obj\Debug\Laboratorio II Programación III.csproj.AssemblyReference.cache
+C:\Users\alexs\Desktop\Laboratorio II Programación III\Laboratorio II Programación III\obj\Debug\Laboratorio II Programación III.csproj.SuggestedBindingRedirects.cache
+C:\Users\alexs\Desktop\Laboratorio II Programación III\Laboratorio II Programación III\obj\Debug\Laboratorio II Programación III.csproj.CoreCompileInputs.cache
+C:\Users\alexs\Desktop\Laboratorio II Programación III\Laboratorio II Programación III\obj\Debug\Laboratorio II Programación III.exe
+C:\Users\alexs\Desktop\Laboratorio II Programación III\Laboratorio II Programación III\obj\Debug\Laboratorio II Programación III.pdb
