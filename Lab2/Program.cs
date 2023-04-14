@@ -233,7 +233,7 @@ namespace Lab2
 
                         double total = 0;
 
-                        Console.ForegroundColor = ConsoleColor.DarkCyan;
+                        Console.ForegroundColor = ConsoleColor.Cyan;
                         Console.Write("================================================\n" +
                                       "Productos seleccionados: ");
 
@@ -244,7 +244,8 @@ namespace Lab2
                         }
 
                         Console.WriteLine($"Total: {total}");
-                        Console.WriteLine($"Venta registrada a nombre del cliente: {userName}.");
+                        Console.WriteLine($"Venta registrada a nombre del cliente: {userName}.\n" +
+                                           "================================================");
                         Console.ForegroundColor = ConsoleColor.White;
 
                         break;
