@@ -25,6 +25,10 @@ namespace Lab2
             categories.Add(new Category("Cuidado del cabello", areas[2]));
             categories.Add(new Category("Higiene bucal", areas[2]));
 
+            products.Add(new Product("Manzanas", "Frutícola del Valle", new DateTime(2023, 05, 30), new DateTime(2023, 04, 14), "Bolsa de 1 kg", 2.99, 10, categories[0]));
+            products.Add(new Product("Pollo entero", "Agropecuaria Santa Marta", new DateTime(2023, 04, 20), new DateTime(2023, 04, 12), "Sin hueso, sin piel", 9.99, 5, categories[1]));
+            products.Add(new Product("Pasta dental Colgate", "Colgate-Palmolive", new DateTime(2024, 03, 01), new DateTime(2023, 04, 01), "Blanqueamiento", 4.99, 20, categories[5]));
+
             Console.WriteLine("================================================\n" +
                               "  Bienvenido a la aplicación a SupermarcketApp\n" +
                               "\n" +
@@ -84,6 +88,16 @@ namespace Lab2
                     Console.WriteLine($"{i + 1}. {categories[i].Name}");
                 }
 
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("================================================\n" +
+                                  "            Productos registrados\n" +
+                                  "================================================");
+
+                for (int i = 0; i < products.Count; i++)
+                {
+                    Console.WriteLine($"{i + 1}. {products[i].Name} ({products[i].Category.Name} - {products[i].Category.Area.Name}) - Proveedor: {products[i].Provider} - Precio {products[i].Price} - Unidades: {products[i].Units} - Fecha de Caducidad: {products[i].ExpirationDate}");
+                }
+
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
                 Console.Write("================================================\n" +
                               "Seleccione una opción: \n" +
@@ -117,7 +131,7 @@ namespace Lab2
 
                     case 2:
 
-                        Console.Write("================================================\n" + 
+                        Console.Write("================================================\n" +
                                       "Ingrese el nombre de la categoría: ");
                         string categoryName = Console.ReadLine();
                         Console.Write("================================================\n" +
@@ -135,7 +149,7 @@ namespace Lab2
                         categories.Add(category);
 
                         Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("================================================\n" + 
+                        Console.WriteLine("================================================\n" +
                                           "          Categoría creada con éxito\n" +
                                           "================================================");
                         Console.ForegroundColor = ConsoleColor.White;
@@ -191,7 +205,7 @@ namespace Lab2
                         while (true)
                         {
                             Console.Write("================================================\n" +
-                                          "Seleccione un producto para agregar a la venta: ");
+                                          "Seleccione un producto para agregar a la venta:\n");
 
                             for (int i = 0; i < products.Count; i++)
                             {
