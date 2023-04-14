@@ -95,7 +95,7 @@ namespace Lab2
 
                 for (int i = 0; i < products.Count; i++)
                 {
-                    Console.WriteLine($"{i + 1}. {products[i].Name} ({products[i].Category.Name} - {products[i].Category.Area.Name}) - Proveedor: {products[i].Provider} - Precio {products[i].Price} - Unidades: {products[i].Units} - Fecha de Caducidad: {products[i].ExpirationDate}");
+                    Console.WriteLine($"{i + 1}. {products[i].Name} ({products[i].Category.Name} - {products[i].Category.Area.Name}) - Proveedor: {products[i].Provider} - Precio {products[i].Price} - Unidades: {products[i].Units} - Fecha de Caducidad: {products[i].ExpirationDate}\n");
                 }
 
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
